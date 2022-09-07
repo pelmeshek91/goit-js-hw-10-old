@@ -1,0 +1,31 @@
+body {
+    background-image: url(//kartinkin.net/uploads/posts/2021-07/thumbs/1626260280_44-kartinkin-com-p-fon-dlya-aktsii-krasivo-64.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    margin-left: 210px;
+}
+
+.timer {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value,
+.label {
+    font-size: 24px;
+    font-weight: 700;
+
+}
