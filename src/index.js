@@ -47,9 +47,7 @@ function createMarkup(arr) {
 }
 
 function createCountry({ flag, name, capital, population, languages }) {
-  return `<img src="${flag}" style="width:30px;height:30px;"><p>${name}</p><p>${capital}</p><p>${population}</p><p> ${languages.map(
-    element => element.name
-  )}</p>`;
+  return `<img src="${flag}" style="width:30px;height:30px;"><p>${name}</p><p>${capital}</p><p>${population}</p><p> ${languages}</p>`;
 }
 function setMarkup(countries) {
   if (countries.length > 10) {
